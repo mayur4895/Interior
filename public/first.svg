@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100">
+      <motion.path
+        d="M10,10 L90,10 L90,90 L10,90 Z"
+        initial={{ pathLength: 0, pathOffset: 1 }}
+        animate={{ pathLength: 1, pathOffset: 0 }}
+        transition={{ duration: 2, ease: 'easeInOut' }}
+      />
+    </svg>
